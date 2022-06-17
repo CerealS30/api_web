@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'graphene_django',
     'links',
+    'recommender',
     'corsheaders',
 ]
 
@@ -83,7 +84,7 @@ DATABASES = {
         'NAME': 'hackernews',
         'USER': 'postgres',
         'PASSWORD': 'cereal1',
-        'HOST': '35.233.162.185',
+        'HOST': '34.168.117.185',
         'PORT': '5432',
     }
 }
